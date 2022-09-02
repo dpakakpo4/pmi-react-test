@@ -1,0 +1,23 @@
+.add-page {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    height: auto;
+    margin: 0 4rem;
+    padding: 0 2rem;
+}
+
+.add-page-content {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.add-page-title {}
+
+.add-page-actions {
+    display: flex;
+    column-gap: 1rem;
+}
+

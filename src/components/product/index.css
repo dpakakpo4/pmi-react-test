@@ -1,0 +1,56 @@
+.product {
+    position: relative;
+    max-width: fit-content;
+    min-width: 180px;
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.product:hover {
+    box-shadow: 0px 0px 4px 0px black;
+    transform: translateY(-.2rem);
+}
+
+.product-checkbox {
+    position: absolute;
+    top:  10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.product-checkbox input {
+    margin-left: 0;
+}
+
+.product-cover{
+    position: relative;
+}
+
+.product-cover-image {
+    width: 190px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.product-price {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 0 1rem;
+
+    font-weight: bold;
+}
+
+.product-details{
+    line-height: normal;
+}
